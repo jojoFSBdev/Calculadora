@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <div class="div_calculadora">
+            <div id = "tela_resultado" class="div_resultado">
+                Resultado
+            </div>
+            <table>
+                <tr>
+                    <th>
+                        <button onclick = "Inserir(7)" >7</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir(8)">8</button> 
+                    </th>
+                    <th>
+                        <button onclick = "Inserir(9)">9</button> 
+                    </th>
+                    <th>
+                        <button onclick = "Inserir()" >/</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button onclick = "Inserir(4)" >4</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir(5)" >5</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir(6)" >6</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir()" >x</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button onclick = "Inserir(1)" >1</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir(2)" >2</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir(3)" >3</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir()" >-</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button onclick = "Inserir(0)" >0</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir()" >.</button>
+                    </th>
+                    <th>
+                        <button onclick="Calcular()">=</button>
+                    </th>
+                    <th>
+                        <button onclick = "Inserir()" >+</button>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html> 
